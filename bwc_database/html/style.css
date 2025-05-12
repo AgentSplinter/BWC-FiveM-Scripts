@@ -1,0 +1,95 @@
+body {
+    background: transparent;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+#container {
+    width: 540px;
+    height: 343px;
+    background: url('assets/computer_bg.png') no-repeat center center;
+    background-size: cover;
+    border: 2px solid #555;
+    border-radius: 8px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#closeBtn {
+    background: #c0392b;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.menu {
+    margin-top: 5px;
+}
+
+.menu button {
+    background: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add-buttons {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.add-buttons button {
+    background: #2ecc71;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#content {
+    margin-top: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    height: 210px;
+    overflow-y: auto;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #444;
+    padding: 5px;
+    text-align: center;
+}
+
+.data-table th {
+    background: #222;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #333;
+}
+.data-table tr:nth-child(odd) {
+    background-color: #2a2a2a;
+}

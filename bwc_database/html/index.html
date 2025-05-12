@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Police Computer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="display: none;">
+    <div id="container">
+        <div class="header">
+            <h2>Police Computer</h2>
+            <button id="closeBtn">Close</button>
+        </div>
+        <div class="menu">
+            <button onclick="switchTab('citizens')">Citizens</button>
+            <button onclick="switchTab('vehicles')">Vehicles</button>
+            <button onclick="switchTab('warrants')">Warrants</button>
+            <button onclick="switchTab('tickets')">Tickets</button>
+        </div>
+
+        <div class="add-buttons">
+            <button id="addVehicleBtn" style="display: none;" onclick="openAddVehicleMenu()">Add Vehicle</button>
+            <button id="addWarrantBtn" style="display: none;" onclick="openAddWarrantMenu()">Add Warrant</button>
+            <button id="addTicketBtn" style="display: none;" onclick="openAddTicketMenu()">Add Ticket</button>
+        </div>
+
+        <div id="content"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
